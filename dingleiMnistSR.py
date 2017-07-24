@@ -40,6 +40,7 @@ def costCal(labels, classNum, data, weights):
 
         
 if __name__ == '__main__':    
+    print "hello"
     trainSize, rows, cols, trainImage = readImages('./data/train-images-idx3-ubyte')
     imgNum, featureNum = trainImage.shape
     trainLabel = readLabels('./data/train-labels-idx1-ubyte')
